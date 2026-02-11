@@ -4,6 +4,7 @@ A React Native dropdown component for selecting Philippine cities and barangays 
 
 ## Features
 
+
 - Pure JavaScript implementation (no native dependencies required)
 - TypeScript support with full type definitions
 - Searchable dropdowns for easy navigation
