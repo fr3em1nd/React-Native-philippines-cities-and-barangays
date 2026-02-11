@@ -1,0 +1,50 @@
+{
+  "name": "react-native-philippines-cities-barangays",
+  "version": "1.0.0",
+  "description": "React Native dropdown component for Philippine cities and barangays with dynamic selection",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "jest",
+    "lint": "eslint src/**/*.{ts,tsx}"
+  },
+  "keywords": [
+    "react-native",
+    "philippines",
+    "cities",
+    "barangays",
+    "dropdown",
+    "picker",
+    "location",
+    "address",
+    "philippine-address",
+    "ph-address"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/react-native-philippines-cities-barangays.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/react-native-philippines-cities-barangays/issues"
+  },
+  "homepage": "https://github.com/yourusername/react-native-philippines-cities-barangays#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-native": "^0.72.0",
+    "react": "^18.2.0",
+    "react-native": "^0.72.0",
+    "typescript": "^5.0.0"
+  }
+}

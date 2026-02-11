@@ -1,0 +1,43 @@
+# Source files (TypeScript)
+src/
+
+# Development
+.git
+.gitignore
+.gitattributes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+__tests__/
+__mocks__/
+coverage/
+jest.config.js
+
+# Documentation (keep README)
+docs/
+
+# Examples
+example/
+examples/
+
+# Build tools
+tsconfig.json
+.eslintrc*
+.prettierrc*
+.editorconfig
+
+# CI/CD
+.github/
+.travis.yml
+.circleci/
+
+# Misc
+*.log
+*.tgz
+.DS_Store
+Thumbs.db
