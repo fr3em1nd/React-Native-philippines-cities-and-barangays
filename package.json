@@ -1,6 +1,6 @@
 {
   "name": "react-native-philippines-cities-barangays",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React Native dropdown component for Philippine cities and barangays with dynamic selection",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
