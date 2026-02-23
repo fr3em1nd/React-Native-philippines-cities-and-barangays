@@ -6,11 +6,14 @@
   "types": "lib/index.d.ts",
   "files": [
     "lib",
-    "src"
+    "src",
+    "scripts"
   ],
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
+    "prepublishOnly": "npm run fetch-data && npm run build",
+    "fetch-data": "node scripts/fetchPSGCData.js",
     "test": "jest",
     "lint": "eslint src/**/*.{ts,tsx}"
   },
